@@ -1,0 +1,47 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/uploads/*
+!server/uploads/.gitkeep
+.env
+.env.*
+!.env.example
+.DS_Store
+
+textbook-manifest.csv
+
+# Phase 11 admin-uploaded physical book cover files
+**/cover-uploads/
+
+# Phase 13 locally uploaded peer-to-peer book photos
+**/peer-photo-uploads/
+
+
+# Private environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Installed dependencies
+node_modules/
+
+# Generated application files
+dist/
+build/
+coverage/
+*.log
+
+# Database backups and archives
+*.archive.gz
+*.bson
+*.zip
+
+# Local textbook PDFs and private uploads
+*.pdf
+**/uploads/
+
+# Private credentials
+*.pem
+*.key
